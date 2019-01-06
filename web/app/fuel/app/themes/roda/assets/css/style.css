@@ -1,0 +1,11 @@
+/* line 1, ../sass/style.scss */
+body { width: 100%; }
+
+/* line 5, ../sass/style.scss */
+.headerbar { height: 50px; position: fixed; z-index: 999; top: 0; width: 100%; display: flex; align-items: center; background-color: #ccc; padding: 0 1em 0 1em; }
+
+/* line 16, ../sass/style.scss */
+.site-name { flex: 1; margin-left: -36px; }
+
+/* line 21, ../sass/style.scss */
+article { margin-top: 50px; }

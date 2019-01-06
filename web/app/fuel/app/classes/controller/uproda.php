@@ -12,7 +12,7 @@ class Controller_Uproda extends Controller
 		Libs_Lang::load();
 
 		$this->theme = \Theme::instance();
-		$this->theme->active('skeleton');
+		$this->theme->active('roda');
 		$this->theme->asset->add_path('assets/global', ['css', 'js', 'img']);
 
 		if ( ! \Input::is_ajax())
